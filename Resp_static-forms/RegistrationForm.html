@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/javascript" src="materialize/js/materialize.min.js"/>
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+            
+    </head>
+
+    <body>
+        <br>
+        <form action="" id="RegForm_1">
+            <div class="row">
+                    <div class="col s12 m6 l4">
+                        <fieldset>
+                            <div class="row">
+                                <div class="col s4">
+                                    <fieldset style="height: 170px;"></fieldset>
+                                </div>
+                                <div class="col s6">
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group3" type="radio" checked />
+                                            <span>New Registration</span>
+                                        </label>  
+                                    </div>
+                                    <div class="col s2">    
+                                        <a class="waves-effect waves-light btn">...</a>
+                                    </p>  
+                                </div>
+                                <div class="col s4">
+                                    
+                                </div>
+                                <div class="col s8">
+                                    <p>
+                                        <label>
+                                            <input class="with-gap" name="group3" type="radio" checked />
+                                            <span>Registered</span>
+                                        </label>      
+                                        
+                                    </p>  
+                                </div>
+                                <div class="col s4">
+                                    
+                                </div>
+                                <div class="col s8">
+                                        Reg. No.
+                            
+                                    <input type="number" name="txt1" id="regno1">
+                                </div>
+                                <div class="col s2">
+                                    <a class="waves-effect waves-light btn">OK</a>
+                                </div>
+                                <div class="col s2">
+                                        <a class="waves-effect waves-light btn">...</a>
+                                </div>
+                                <div class="col s3">
+                                    Prefix
+                                </div>
+                                <div class="input-field col s5">
+                                    <select class="browser-default" id="prefix">
+                                        <option value="4">select</option>
+                                        <option value="1"></option>
+                                        <option value="2"></option>
+                                        <option value="3"></option>
+                                    </select>
+                                    
+                                </div><br>
+
+                                <div class="col s12">
+                                    First Name
+                                
+                                    <input type="text" name="txt1" id="fname1">
+                                </div>
+                                <div class="col s12">
+                                    Middle Name
+                                
+                                    <input type="text" name="num1" id="mname1">
+                                </div>
+                                <div class="col s12">
+                                    Last Name
+                            
+                                    <input type="text" name="num1" id="lname1">
+                                </div>    
+                                <div class="col s4">
+                                    Gender
+                                </div>    
+                                <div class="col s8">
+                                    <select class="browser-default" id="gdr1">
+                                            <option value="4">Male</option>
+                                            <option value="1">Female</option>
+                                            <option value="2">Transgender</option>
+                                    </select>
+                                
+                                </div>
+                                <div class="col s12">
+                                    Address
+                                
+                                    <textarea id="add1"></textarea>
+                                </div>
+                                <div class="col s12">
+                                    Pin No.
+                                    <input type="number" name="num1" id="pinno">
+                                </div>
+                                <div class="col s4">
+                                    Area
+                                </div>    
+                                <div class="col s8" >
+                                    <select class="browser-default" id="area1">
+                                            <option value="4">select</option>
+                                            <option value="1"></option>
+                                            <option value="2"></option>
+                                            <option value="3"></option>
+                                    </select>
+                                    
+                                </div>   
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <fieldset>
+                            <div class="row">
+                                    <div class="col s4">
+                                            City
+                                    </div>
+                                    <div class="col s8">
+                                        <select class="browser-default" id="city1">
+                                            <option value="4">Ahmedngar</option>
+                                            <option value="1">Mumbai</option>
+                                            <option value="2">Nashik</option>
+                                            <option value="3">Pune</option>
+                                            <option value="5">Nagpur</option>
+
+                                        </select>
+                                    
+                                    </div>    
+                                    <div class="col s4">
+                                        State
+                                    </div>
+                                    <div class="col s8">
+                                        <select class="browser-default" id="state1">
+                                                <option value="4">Maharashtra</option>
+                                                <option value="1">Uttar Pradesh</option>
+                                                <option value="2">Gujrat</option>
+                                                <option value="3">Punjab</option>
+                                        </select>
+                                        
+                                    </div>
+                                    <div class="col s4">
+                                            Country
+                                    </div>
+                                    <div class="col s8">
+                                            <select class="browser-default" id="country1">
+                                                <option value="4">India</option>
+                                                <option value="1">USA</option>
+                                                <option value="2">England</option>
+                                                <option value="3">China</option>
+                                        </select>
+                                    
+                                    </div>
+                                    <div class="col s4">
+                                        Date of Birth
+                                    </div>
+                                    <div class="col s8">
+                                        <label>
+                                        <input type="checkbox" class="filled-in" checked="checked"/>
+                                        <span>Use DOB</span></label>
+                                        <input type="text" class="datepicker" id="dob1">
+                                    </div>
+                                    <div class="col s3">
+                                        Age
+                                    </div>
+                                    <div class="col s9">
+                                        <input type="number" name="txt1" id="age1">
+                                    </div>
+                                    
+                                    <div class="col s10">
+                                        Aadhar No.
+                                        <input type="number" name="num1" id="adhar1">
+                                    </div>
+                                    <div class="col s2">
+                                        <a class="waves-effect waves-light btn">...</a>
+                                    </div>
+                                    <div class="col s12">
+                                        Phone No.
+                                            <input type="number" name="num1" id="phno1">
+                                    </div>    
+                                    <div class="col s12">
+                                        Mobile No.
+                                    <input type="number" name="num1" id="mobno1">
+                                    </div>
+                                    <div class="col s4">
+                                        Marital Status
+                                    </div>
+                                    <div class="col s8">
+                                            <select class="browser-default" id="marsts1">
+                                                    <option value="4">Married</option>
+                                                    <option value="1">Unmarried</option>
+                                                
+                                            </select>
+                                        
+                                    </div>
+                                    <div class="col s4">
+                                        Religion
+                                    </div>
+                                    <div class="col s8">
+                                            <select class="browser-default" id="relg1">
+                                                    <option value="4">HINDUISM</option>
+                                                    <option value="1">BUDDHISM</option>
+                                                    <option value="2">ISLAM</option>
+                                                    <option value="3">CHRISTIANITY</option>
+                                            </select>
+                                        
+                                    </div>
+                                    <div class="col s12">
+                                        Warning
+                                        <textarea id="wrn1"></textarea>
+                                    </div>   
+                                </div>
+                        </fieldset>
+                   </div>
+                    <div class="col s12 m6 l4">
+                        <fieldset>
+                            <div class="row">
+                                    <div class="col s12">
+                                        Visit Date
+                                        <input type="text" class="datepick" id="vdate1">
+                                    </div>
+                                    <div class="col s12">
+                                        Visit Time
+                                        <input type="text" name="num1" class="timepicker">
+                                    </div>
+                                    <div class="col s4">
+                                        Hospital
+                                    </div>
+                                    <div class="col s8">
+                                        <select class="browser-default" id="hsptl1">
+                                                <option value="4">select</option>
+                                                <option value="1"></option>
+                                                <option value="2"></option>
+                                                <option value="3"></option>
+                                        </select>
+                                        
+                                
+                                    </div>    
+                                    <div class="col s4">
+                                        Patient Type
+                                    </div>
+                                    <div class="col s8">
+                                        <select class="browser-default" id="ptype1">
+                                                <option value="4">select</option>
+                                                <option value="1"></option>
+                                                <option value="2"></option>
+                                                <option value="3"></option>
+                                        </select>
+                                        
+                                    </div>
+                                    <div class="col s4">
+                                            Company
+                                    </div>
+                                    <div class="col s8">
+                                        <select class="browser-default" id="cmpny1">
+                                                <option value="4">select</option>
+                                                <option value="1"></option>
+                                                <option value="2"></option>
+                                                <option value="3"></option>
+                                        </select>
+                                        
+                                    </div>
+                                    
+                                    <div class="col s4">
+                                        Tarrif
+                                    </div>
+                                    <div class="col s8">
+                                        <select class="browser-default" id="trf1">
+                                                <option value="4">select</option>
+                                                <option value="1"></option>
+                                                <option value="2"></option>
+                                                <option value="3"></option>
+                                        </select>
+                                        
+                                    </div>
+                                    <div class="col s4">
+                                        Dpartment
+                                    </div>
+                                    <div class="col s8">
+                                        <select class="browser-default" id="dept1">
+                                                <option value="4">select</option>
+                                                <option value="1"></option>
+                                                <option value="2"></option>
+                                                <option value="3"></option>
+                                        </select>
+                            
+                                    </div>   
+                                    <div class="col s4">
+                                            Doctor
+                                    </div>
+                                    <div class="col s8">
+                                        <select class="browser-default" id="doct1">
+                                                <option value="4">select</option>
+                                                <option value="1"></option>
+                                                <option value="2"></option>
+                                                <option value="3"></option>
+                                        </select>
+                                        
+                                    </div>
+                                    <div class="col s4">
+                                            Ref. Doctor
+                                    </div>
+                                    <div class="col s8">
+                                        <select  class="browser-default" id="rdoct">
+                                                <option value="4">select</option>
+                                                <option value="1"></option>
+                                                <option value="2"></option>
+                                                <option value="3"></option>
+                                        </select>
+                                        
+                                    </div>   
+                                    <div class="col s12">
+                                    &nbsp;</div>
+                                    <div class="col s4">
+                                    </div>
+                                    <div class="col s3">
+                                        <a class="waves-effect waves-light btn">Photo</a>
+
+                                    </div>
+                                    <div class="col s5">
+                                            <a class="waves-effect waves-light btn">
+                                                    <i class="tiny material-icons">check_circle</i>
+                                                    Save</a>
+                                    </div>
+
+                                    
+                            </div>
+                            
+                        </fieldset><br>
+                        <div class="col s12 m12 l12">
+                            <button type="submit" class="waves-effect waves-light btn">Submit</button>
+                        </div>
+                    </div>
+            </div>
+
+
+        </form>        
+
+        <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+    </body>
+      
+    <script>
+            const calender = document.querySelector('.datepicker');
+            M.Datepicker.init(calender,{});
+            const vdate = document.querySelector('.datepick');
+            M.Datepicker.init(vdate,{});
+            const watch = document.querySelector('.timepicker');
+            M.Timepicker.init(watch,{});
+        </script>
+    
+    
+</html>

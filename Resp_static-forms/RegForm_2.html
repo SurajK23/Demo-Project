@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/javascript" src="materialize/js/materialize.min.js"/>
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+        <!--Let browser know website is optimized for mobile-->
+            
+    </head>
+
+    <body>
+        <br>
+        <form id="RegForm_2">
+            <div class="row">
+                <div class="col s12 m12 l6">
+                    <fieldset>
+                        <div class="row"><br>
+                            <div class="col s12">
+                                First Name
+                                <input type="text" name="txtFN" id="fn0">
+                            </div>
+                            <div class="col s12">
+                                Last Name
+                                <input type="text" name="txtLN" id="ln0">
+                            </div>
+                            <div class="col s12">
+                                Email
+                                <input type="email" name="txtEM1" id="eml00">
+                            </div>
+                            <div class="col s12">
+                                Retype Email
+                                <input type="email" name="txtEM2" id="eml01">
+                            </div>
+                            <div class="col s12">
+                                Password
+                                <input type="password" name="txtPW1" id="pw00">
+                            </div>
+                            <div class="col s12">
+                                Retype Password
+                                <input type="password" name="txtPW2" id="pw01">
+                            </div>
+                            <div class="col s12">
+                                Address
+                                <textarea id="add0"></textarea>
+                            </div>
+                            <div class="col s2">
+                                City
+                            </div>
+                            <div class="col s10">
+                                <select class="browser-default" id="city0">
+                                    <option value="4">Ahmedngar</option>
+                                    <option value="1">Mumbai</option>
+                                    <option value="2">Nashik</option>
+                                    <option value="3">Pune</option>
+                                    <option value="5">Nagpur</option>
+                                </select>
+                            </div>    
+                            <div class="col s2">
+                                State
+                            </div>
+                            <div class="col s10">
+                                <select class="browser-default" id="state0">
+                                    <option value="4">Maharashtra</option>
+                                    <option value="1">Gujrat</option>
+                                    <option value="2">Delhi</option>
+                                    <option value="3">Zarkhand</option>
+                                    <option value="5">Punjab</option>
+                                </select>
+                            </div>
+                            <div class="col s12">
+                                Zip Code
+                                <input type="number" name="txtZN" id="zc0">
+                            </div> 
+                            <div class="col s12">
+                                Phone Number
+                                <input type="Number" name="txtPN" id="phno0">
+                            </div>   
+                            <div class="col s12">
+                                Mobile Number
+                                <input type="number" name="txtMN" id="mbno0">
+                            </div>
+                            <div class="col s12">
+                                Date of Birth
+                                <input type="text" class="datepicker" name="txDOB" id="dob0">
+                            </div>
+                            <div class="col s3">
+                                Gender
+                            </div>
+                            <div class="col s9">
+                                <select class="browser-default" id="gdr0">
+                                    <option value="4">Male</option>
+                                    <option value="1">Female</option>
+                                    <option value="2">Transgender</option>
+                                </select>
+                            </div>
+                            <div class="col s3">
+                                Security Quetion
+                            </div>
+                            <div class="col s9">
+                                <select class="browser-default" id="secque0">
+                                    <option value="4">What is your father name ?</option>
+                                    <option value="1">What is your mother name ?</option>
+                                    <option value="2">What is your brother name ?</option>
+                                    <option value="3">What is your favourite food ?</option>
+                                    <option value="5">Who is your favourite Sportpersion ?</option>
+                                </select>
+                            </div>
+                            <div class="col s12">
+                                Security answer
+                                <input type="text" name="txANS" id="secans0">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="col s12 m12 l6">
+                    <fieldset>
+                        <b>Persional Information</b>
+                        <div class="row">
+                                <div class="col s12">
+                                    First Name
+                                    <input type="text" name="txtFN" id="fn1">
+                                </div>
+                                <div class="col s12">
+                                    Last Name
+                                    <input type="text" name="txtLN" id="ln1">
+                                </div>
+                                <div class="col s12">
+                                    Date of Birth
+                                    <input type="text" class="datepick" name="txDOB" id="dob1">
+                                </div>
+                                <div class="col s3">
+                                    Gender
+                                </div>
+                                <div class="col s9">
+                                    <select class="browser-default" id="gdr1">
+                                        <option value="4">Male</option>
+                                        <option value="1">Female</option>
+                                        <option value="2">Transgender</option>
+                                    </select>
+                                </div>
+                                <br><br>
+                                &nbsp;&nbsp;<b>Account Information</b>
+                                <div class="col s12">
+                                    Email
+                                    <input type="email" name="txtEM1" id="eml10">
+                                </div>
+                                <div class="col s12">
+                                    Retype Email
+                                    <input type="email" name="txtEM2" id="eml11">
+                                </div>
+                                <div class="col s12">
+                                    Password
+                                    <input type="password" name="txtPW1" id="pw10">
+                                </div>
+                                <div class="col s12">
+                                    Retype Password
+                                    <input type="password" name="txtPW2" id="pw11">
+                                </div>
+                                <div class="col s3">
+                                    Security Quetion
+                                </div>
+                                <div class="col s9">
+                                    <select class="browser-default" id="secque1">
+                                        <option value="4">What is your father name ?</option>
+                                        <option value="1">What is your mother name ?</option>
+                                        <option value="2">What is your brother name ?</option>
+                                        <option value="3">What is your favourite food ?</option>
+                                        <option value="5">Who is your favourite Sportpersion ?</option>
+                                    </select>
+                                </div>
+                                <div class="col s12">
+                                    Security answer
+                                    <input type="text" name="txANS" id="secans1">
+                                </div>
+                                <div class="col s12"></div>
+                                <br><br>&nbsp;&nbsp;<b>Contact Information</b>
+                                <div class="col s12">
+                                    Address
+                                    <textarea id="add1"></textarea>
+                                </div>
+                                <div class="col s2">
+                                    City
+                                </div>
+                                <div class="col s10">
+                                    <select class="browser-default" id="city1">
+                                        <option value="4">Ahmedngar</option>
+                                        <option value="1">Mumbai</option>
+                                        <option value="2">Nashik</option>
+                                        <option value="3">Pune</option>
+                                        <option value="5">Nagpur</option>
+                                    </select>
+                                </div>    
+                                <div class="col s2">
+                                    State
+                                </div>
+                                <div class="col s10">
+                                    <select class="browser-default" id="state1">
+                                        <option value="4">Maharashtra</option>
+                                        <option value="1">Gujrat</option>
+                                        <option value="2">Delhi</option>
+                                        <option value="3">Zarkhand</option>
+                                        <option value="5">Punjab</option>
+                                    </select>
+                                </div>
+                                <div class="col s12">
+                                    Zip Code
+                                    <input type="number" name="txtZN" id="zc1">
+                                </div> 
+                                <div class="col s12">
+                                    Phone Number
+                                    <input type="Number" name="txtPN" id="phno1">
+                                </div>   
+                                <div class="col s12">
+                                    Mobile Number
+                                    <input type="number" name="txtMN" id="mbno1">
+                                </div>
+                        </div>
+                                    <button class="btn btn-primary" type="submit">Button</button>
+
+                    </fieldset>
+                </div>
+            
+
+            </div>    
+        </form>
+        <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+        <script src="RegForm_2.js"></script>
+
+    </body>
+        <script>
+         const calender = document.querySelector('.datepicker');
+            M.Datepicker.init(calender,{});
+            const vdate = document.querySelector('.datepick');
+            M.Datepicker.init(vdate,{});
+        </script>
+    
+</html>
